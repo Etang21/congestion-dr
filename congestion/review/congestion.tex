@@ -1,0 +1,144 @@
+% JEL-Article.tex for AEA last revised 22 June 2011
+\documentclass[JEL]{AEA}
+
+% The mathtime package uses a Times font instead of Computer Modern.
+% Uncomment the line below if you wish to use the mathtime package:
+%\usepackage[cmbold]{mathtime}
+% Note that miktex, by default, configures the mathtime package to use commercial fonts
+% which you may not have. If you would like to use mathtime but you are seeing error
+% messages about missing fonts (mtex.pfb, mtsy.pfb, or rmtmi.pfb) then please see
+% the technical support document at http://www.aeaweb.org/templates/technical_support.pdf
+% for instructions on fixing this problem.
+
+% Note: you may use either harvard or natbib (but not both) to provide a wider
+% variety of citation commands than latex supports natively. See below.
+
+% Uncomment the next line to use the natbib package with bibtex 
+\usepackage{natbib}
+
+% Uncomment the next line to use the harvard package with bibtex
+%\usepackage[abbr]{harvard}
+
+% This command determines the leading (vertical space between lines) in draft mode
+% with 1.5 corresponding to "double" spacing.
+\draftSpacing{1.5}
+
+\begin{document}
+
+\title{Congestion Pricing and Information: An Overview}
+\shortTitle{Congestion Pricing and Information}
+\author{Eric Tang\thanks{%
+Stanford University; 450 Serra Mall, Stanford CA 94305; etang21@stanford.edu.
+I am deeply grateful to Matthew Gentzkow for advising and guiding this directed reading. I thank Paul Milgrom as well for suggesting several recent papers on carpooling and tolls.
+}}
+\date{\today}
+\pubMonth{March}
+\pubYear{2021}
+\pubVolume{Vol}
+\pubIssue{Issue}
+\Keywords{congestion pricing, routing, Braess' paradox, Bayesian persuasion}
+
+\begin{abstract}
+TODO: your abstract here.
+\end{abstract}
+
+\maketitle
+
+%% TODO: Add introduction section
+
+\section{Early Congestion Models}
+
+TODO: Maybe add some setup here for what the model setup is like.
+
+The earliest model of congestion pricing is likely the model of \cite{vickrey-1969} with a single route. Vickrey considers a model with commuters who have homogeneous valuations for time spent in traffic, and time spent at their destination before and after a desired arrival time. He considers one model of congestion: a bottleneck mode, in which a queue gradually accumulates along the route, then is reduced as time progresses and the cars leave. He then considers a variable toll, in which the crossing toll gradually increases as the typical hour of congestion approaches. Under this toll regimen, commuters are indifferent between paying the toll and the (previous) equilibrium in which they remained in traffic. Thus the net surplus is the revenues collected by the toll, with no change to commuters' net welfare. Later modeling work such as \cite{eliasson-2006}, deal with the critical issue of how to redistribute these toll revenues.
+
+
+TODO: the later extensions to Vickrey's model.
+
+\section{Information provision in congestion games}
+
+With the rise of platforms such as Waze and Google Maps which can provide commuters with real-time information on traffic conditions, economic research on information in routing and congestion games has proliferated in the past decade. Much of this work links to the more broadly construed fields of information economics and information design (for an overview, see \cite{bergemann-2019}), in particular the work of \cite{das-2017}.
+
+An early study of the effect of information on total congestion times is from \cite{arnott-1991}, who studied an extension of the classical Vickrey model. In their model, commuters select both a time to depart (as in Vickrey), as well as one of two routes to their destination, which have stochastic congestion levels. They find that if drivers receive perfect information about traffic conditions, total congestion is reduced, but if only incomplete information is provided, total congestion may \textit{increase}. They offer several heuristic explanations for this, but one is "concentration": if commuters receive common information, they may align on the same choice of route, leading to increased driver concentration and congestion on that route. This finding contrasts somewhat with that of \cite{das-2017}, who demonstrate a scenario in which complete information provision offers no gains in net congestion time, while carefully-designed incomplete information provision can reduce total congestion. The comparison of these two models emphasizes the need to carefully design information provision systems for routing games when possible. (Note that providing all information at the start is different from providing along the way).
+
+%% TODO: Add diagram here of the Das-Kamenica-Mirka routing game!
+
+\cite{das-2017} demonstrate that incomplete provision of information to commuters can reduce total congestion time, when compared to the equilibria under no information or complete information. They model a network where commuters choose between two routes, one with stochastic travel time and one with travel time as a fixed function of the number of commuters. They demonstrate that a social planner can observe congestion times and send a signal to commuters as to which route to take, which does not provide full information yet still results in an improved outcome. This is in the spirit of Bayesian Persuasion models laid out in \cite{kamenica-2011}; the design is analogous to that work's leading example of a prosecutor sending a signal to a judge under a set of Bayesian constraints. Das, Kamenica and Mirka measure the gains from partial information provision similarly to metrics of the "price of anarchy" developed in \cite{roughgarden-2002}.
+
+\cite{acemoglu-2016} study the provision of information in routing games in a different sense than \cite{das-2017}. In their context, commuters have distinct information sets representing which routes in the network they believe are accessible. Commuters gaining more information is equivalent to having an expanded information set about which routes are available to travel on. Similarly to previous models, the travel times along route segments are determined as functions of the commuters utilizing those segments. \cite{acemoglu-2016} then ask whether commuters being given more information can result in increased total travel times in equilibrium. This is an extension of the classic Braess' Paradox (in this case, adding a new route is akin to adding that route to all commuters' information sets), and \cite{acemoglu-2016} dub this an Informational Braess' Paradox.
+
+To analyze equilibrium conditions, \cite{acemoglu-2016} first define a novel equilibrium concept, which they term Information Constrained Wardrop Equilibrium. In this equilibrium concept, commuters take the route in the information set with minimal congestion level, taking the level of congestion on each route as a given. The authors then fully characterize which routing networks are susceptible to the Informational Braess' Paradox. These are exactly those networks which are a series of linearly independent networks, where linearly independent networks are those in which each route has some edge which is not in any other route. They also prove results on the computational efficiency of determining whether a network is a series of linearly indpendent networks, and efficiency bounds on their equilibrium concept.
+
+\cite{acemoglu-2016} also suggest several future directions for research, some of which are linked to those of other work on the provision of information in routing games. In a technical dimension, they note that their work only studies whether commuters with greater information provided to them are themsellves harmed by the greater information; it is worth asking to what extent drivers without the given information also suffer greater congestion costs. Both \cite{das-2017} and \cite{acemoglu-2016} focus on networks with a single source and single destination, and suggest that further work on multiple sources and multiple destinations is necessary. Finally, they suggest a more empirical lens to determine whether informational Braess' paradoxes can be detected in the real world, and how likely such susceptible networks are to occur.
+
+\section{Carpooling Models}
+
+Recent work has also been stimulated by questions of market design in a near future of autonomous vehicles. \cite{ostrovsky-2018} study the interaction of congestion pricing with carpooling, a practice which they argue will become more widespread with the emergence of autonomous vehicles.
+
+\cite{ostrovsky-2018} first argue that carpooling and tolling are complementary "technologies," which ought to be modelled in conjunction. As a guiding example, they consider the classic Vickrey model of congestion. Under this model, without tolls, agents have no individual incentive to carpool. With tolls and without carpooling, agents are indifferent between paying tolls and waiting in traffic, hence realize no surplus unless the toll revenues are redistributed to them. However, with tolls and carpooling, agents have an incentive to carpool, reducing total congestion on the road.
+
+Ostrovsky and Schwartz next outline conditions that are sufficient for determining when an allocation of riders to routes maximizes social surplus. In their model, an outcome is an allocation of riders to (possibly shared) trips, each of which has a toll cost and a physical cost. Each rider has a valuation for each possible trip. The authorsthen introduce three conditions on these routing outcomes. They define \textit{budget-balanced} outcomes in the sense most common in the literature. \textit{Stable} outcomes borrow terminology from the literature on coalition formation and stable matchings: if no group of riders can organize an alternative trip that they would prefer, the outcome is stable. Finally, \textit{market-clearing} outcomes are those in which tolls are only imposed when needed: if a road segment is not at capacity, its toll is zero. This market-clearing condition provides a guide for how to set tolls to maximize social welfare. 
+
+One main result of \cite{ostrovsky-2018} paper is that any feasible outcome which is budget-balanced, stable, and market-clearing must be a welfare-maximizing outcome among all feasible outcomes. With more work, they generalize these results to approximate outcomes, which they denote as "quasi-feasible" outcomes, and address some of the technical issues caused by the discrete nature of the problem. Finally, they use their model to compare metrics of "car utilization": they find that increasing the amount of time a car is on the road has relatively small savings compared to increasing the number of passengers in each car ride.
+
+There are several policy implications of the work outlined above. First, when city planners model transit updates and tolls, it is critical to model these changes with carpooling considered. Second, their result on surplus-maximizing outcomes suggests that additive per-segment tolls, which do not vary by number of vehicle occupants, are sufficient to achieve optimal outcomes. Finally, their last result serves as further evidence for the power of reducing the friction in carpooling to reduce total cost for passengers.
+
+
+
+% \begin{enumerate}
+%     \item - Cite some older work on Braess' paradox
+%     \item - Kamenica and Das
+%     \item - Cite Roughgarden on the price of anarchy
+%     \item - Ostrovsky and Schwartz
+%     \item - Arnott's work
+%     \item - Cite Acemoglu on the informational Braess' paradox (also can cite original Braess' work and Itai Ashlagi's work on routing between terminals).
+% \end{enumerate}
+
+\section{Congestion Pricing in Practice}
+
+Along with the wealth of theoretical models of congestion have arisen a wealth of empirical work using measurements of commuter behavior in the real world. Several of these arise from cities which have implemented congestion pricing systems, such as Stockholm, Singapore, and London. Others, such as \cite{kreindler-2018}, model this work using measurements in cities that do not have congestion pricing, and measure relevant metrics.
+
+\subsection{Equity Effects of Congestion Pricing}
+
+\cite{eliasson-2006} focus on the distributional effects arising from congestion pricing. In congestion pricing debates, those resistant to congestion pricing frequently argue that congestion taxes will disproportionately harm the poor, since poor individuals are likely to have longer commutes. The authors model the congestion pricing scheme proposed in Stockholm, Sweden, which was eventually implemented. They find that the most important factor determining whether a congestion tax is regressive or progressive is the use of revenues generated by the toll. In this case, they find that if the Stockholm congestion tax revenues are used to improve public transit, they conclude that the proposed scheme is actually progressive. They also highlight the importance of modeling public transportation when determining the distributional effects of congestion pricing.
+
+Eliasson and Mattsson first outline the conflicting reasons why a congestion tax might be regressive or progressive. Congestion pricing may be regressive because the wealthy have higher value of time, hence will disproportionately benefit from reduced congestion. Furthemore, the poor may pay more in congestion charges if they drive more often. On the other hand, in cities where autos are faster than public transit, the rich will disproportionately use cars and be affected by the tax. This may be true of "European" city layouts, for example.
+
+The empirical modeling by Eliasson and Mattsson is particularly keen. They deploy several sample enumeration models to predict a commuter's origin and destination zone as a function of each route's travel costs, travel times, and the commuter's income. They use a specialized model of the changes in traffic times for the Stockholm congestion prices to determine these travel costs and travel times, then apply their sample enumeration models to determine predicted consumer charges and travel times before and after the change. These charges can be nicely separated into three categories: charges paid, change in charges due to route shifting, and time savings
+
+As to the effects of the proposal, in Stockholm, rich use their cars far more. So they pay more and also have more time savings. The way in which the tolls are redistributed really determines which group benefits most. As the authors predict effects with several other inputs to each individual's commute choice, they also segment impacts of the tax by occupation type, household type, gender and geographic location. Their conclusion is quite striking, finding that charges primarily fall on the wealth. “As to income effects," they write, "the richest third will pay four times more charges than the poorest third. Taking also time savings and changes in travel pattern into account, the richest third will lose around 2.5 times more than the poorest third from the direct effects of the charges" (618). They stress that the most critical issue in determining if the tax is regressive, however, is how the taxes are used. It is worth noting that their work is primarily based on a European model where public transit is widely available and is more widely used by the poor.
+
+
+
+% \begin{enumerate}
+%     \item Eliasson and Mattson.
+%     \item Kreindler.
+% \end{enumerate}
+
+\section{Potential Research Questions}
+
+\begin{enumerate}
+\item \cite{das-2017} study the optimal provision of information to drivers in order to minimize net congestion in various road networks. Das, Kamenica and Mirka find that providing incomplete information to drivers can in fact reduce the societal costs of congestion. However, they note that if multiple firms can provide information to commuters, and commuters are free to switch between information providers, firms may have an incentive to provide (socially suboptimal) complete information. This is important in the real world, given that multiple platforms (e.g. Waze, Google, Apple) compete to provide drivers with congestion information, as \cite{ostrovsky-2018} allude to. Can we model the behavior of such competitive firms who are providing information in congestion games? Does the presence of multiple firms always lead to full disclosure?
+
+\item Opponents of congestion pricing often argue that such tolls are regressive, as poorer individuals often have longer commutes and will face tolls more often. Indeed, this has been a key issue in debates around congestion pricing in cities such as Singapore, London, and San Francisco. However, \cite{eliasson-2006} model a proposed congestion pricing plan in Stockholm, and find that the plan is actually progressive, as wealthy individuals tend to use their cars more often, and poorer individuals tend to use public transit. They attribute this finding to the robust public transportation system in Stockholm, and its traditionally “European” city layout which favors public transit over automobiles. They and other authors caution against drawing the same conclusions in “American” city layouts, where individuals tend to favor cars more often. Can we more formally characterize what kinds of city layouts and public transit infrastructures result in congestion pricing being regressive? What implications does this have for city planners designing transit networks?
+
+\item \cite{das-2017} appear to be among the only authors to have applied ideas from Bayesian Persuasion to routing games. Their work studies a very specific case with one source, one destination, and a deterministic congestion function. This leaves several possibilities for generalizing the model to incorporate more source and destination nodes, or stochastic congestion functions. One could even imagine modeling or simulating information provision on a road network from an existing city. When is incomplete provision of congestion information still societally optimal under more complex transit models (multiple routes, nodes, stochastic congestion)? How does the improvement in congestion time change under these models?
+
+\item Idea to flesh out: if only some subset of commuters is provided information, how does this affect commute times for commuters without that information? Raised in \cite{acemoglu-2016}.
+
+\end{enumerate}
+
+
+% References here (manual or bibTeX). If you are using bibTeX, add your bib file 
+% name in place of BibFile in the bibliography command.
+% Remove or comment out the next two lines if you are not using bibtex.
+\bibliographystyle{aea}
+\bibliography{congestion}
+
+% The appendix command is issued once, prior to all appendices, if any.
+% \appendix
+
+% \section{Mathematical Appendix}
+
+\end{document}
+
