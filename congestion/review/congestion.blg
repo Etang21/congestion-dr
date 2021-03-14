@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: congestion.aux
 The style file: aea.bst
 Database file #1: congestion.bib
-You've used 10 entries,
+You've used 11 entries,
             2695 wiz_defined-function locations,
-            639 strings with 5173 characters,
-and the built_in function-call counts, 59705 in all, are:
-= -- 9998
-> -- 664
+            645 strings with 5351 characters,
+and the built_in function-call counts, 67535 in all, are:
+= -- 11318
+> -- 758
 < -- 0
-+ -- 4873
-- -- 208
-* -- 5337
-:= -- 11714
-add.period$ -- 69
-call.type$ -- 10
-change.case$ -- 130
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 140
-empty$ -- 355
-format.name$ -- 211
-if$ -- 10710
++ -- 5530
+- -- 238
+* -- 6047
+:= -- 13226
+add.period$ -- 76
+call.type$ -- 11
+change.case$ -- 143
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 154
+empty$ -- 389
+format.name$ -- 241
+if$ -- 12118
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 37
-num.names$ -- 110
-pop$ -- 11
+newline$ -- 40
+num.names$ -- 121
+pop$ -- 12
 preamble$ -- 1
-purify$ -- 150
+purify$ -- 165
 quote$ -- 0
-skip$ -- 130
+skip$ -- 143
 stack$ -- 0
-substring$ -- 14292
-swap$ -- 59
-text.length$ -- 140
+substring$ -- 16194
+swap$ -- 65
+text.length$ -- 154
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 40
+type$ -- 44
 warning$ -- 0
-while$ -- 239
+while$ -- 263
 width$ -- 0
-write$ -- 52
+write$ -- 57

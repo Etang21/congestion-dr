@@ -22,11 +22,48 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.aux
 INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.aux
 OUTPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.aux
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.out
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.out
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.out
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.out
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.out
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.out
+OUTPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.out
+OUTPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.pdf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
@@ -49,12 +86,13 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
-OUTPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.pdf
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.bbl
-INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.bbl
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.bbl
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.bbl
 INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.aux
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.out
+INPUT /Users/etang/Stanford Classes/honors-thesis/lit-reviews/congestion/review/congestion.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
