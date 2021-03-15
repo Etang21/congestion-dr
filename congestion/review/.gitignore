@@ -1,3 +1,13 @@
 .DS_Store
+<<<<<<< HEAD
 *.fdb_latexmk
+=======
+AEA.cls
+aea.bst
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+>>>>>>> 088709c9d513a67c4a1552052bc742323027e92b
 *.synctex.gz
