@@ -3,47 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: congestion.aux
 The style file: aea.bst
 Database file #1: congestion.bib
-Warning--I didn't find a database entry for "das-fig-1"
-Warning--I didn't find a database entry for "arnott-199"
-You've used 19 entries,
+You've used 20 entries,
             2695 wiz_defined-function locations,
-            689 strings with 6352 characters,
-and the built_in function-call counts, 112766 in all, are:
-= -- 18853
-> -- 1300
+            692 strings with 6433 characters,
+and the built_in function-call counts, 118494 in all, are:
+= -- 19813
+> -- 1364
 < -- 0
-+ -- 9213
-- -- 408
-* -- 10088
-:= -- 22136
-add.period$ -- 132
-call.type$ -- 19
-change.case$ -- 247
-chr.to.int$ -- 19
-cite$ -- 19
-duplicate$ -- 266
-empty$ -- 661
-format.name$ -- 411
-if$ -- 20217
++ -- 9679
+- -- 428
+* -- 10600
+:= -- 23262
+add.period$ -- 139
+call.type$ -- 20
+change.case$ -- 260
+chr.to.int$ -- 20
+cite$ -- 20
+duplicate$ -- 280
+empty$ -- 695
+format.name$ -- 431
+if$ -- 21245
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 64
-num.names$ -- 209
-pop$ -- 20
+newline$ -- 67
+num.names$ -- 220
+pop$ -- 21
 preamble$ -- 1
-purify$ -- 285
+purify$ -- 300
 quote$ -- 0
-skip$ -- 247
+skip$ -- 260
 stack$ -- 0
-substring$ -- 26939
-swap$ -- 113
-text.length$ -- 266
+substring$ -- 28304
+swap$ -- 119
+text.length$ -- 280
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
+type$ -- 80
 warning$ -- 0
-while$ -- 455
+while$ -- 479
 width$ -- 0
-write$ -- 97
-(There were 2 warnings)
+write$ -- 102
