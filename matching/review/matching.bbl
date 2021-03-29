@@ -1,0 +1,12 @@
+
+
+% Bibstyle aea.bst version 2009.05.20
+
+\begin{thebibliography}{xx}
+
+\harvarditem[Dworczak, Kominers \harvardand\ Akbarpour]{Piotr Dworczak,
+  Scott~Duke Kominers \harvardand\ Mohammad Akbarpour}{2020}{dworczak-2020}
+{\bf Dworczak, Piotr, Scott~Duke Kominers, and Mohammad Akbarpour.} 2020.
+  ``Redistribution through Markets.'' {\em Working Paper}.
+
+\end{thebibliography}
