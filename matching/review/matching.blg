@@ -3,46 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: matching.aux
 The style file: aea.bst
 Database file #1: matching.bib
-Warning--I didn't find a database entry for "budish-2008"
-You've used 1 entry,
+You've used 4 entries,
             2695 wiz_defined-function locations,
-            588 strings with 3907 characters,
-and the built_in function-call counts, 9016 in all, are:
-= -- 1531
-> -- 94
+            605 strings with 4361 characters,
+and the built_in function-call counts, 23345 in all, are:
+= -- 3898
+> -- 256
 < -- 0
-+ -- 760
-- -- 30
-* -- 811
-:= -- 1738
-add.period$ -- 7
-call.type$ -- 1
-change.case$ -- 13
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 14
-empty$ -- 35
-format.name$ -- 30
-if$ -- 1620
++ -- 1907
+- -- 80
+* -- 2078
+:= -- 4598
+add.period$ -- 28
+call.type$ -- 4
+change.case$ -- 52
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 56
+empty$ -- 137
+format.name$ -- 80
+if$ -- 4171
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 10
-num.names$ -- 11
-pop$ -- 1
+newline$ -- 19
+num.names$ -- 44
+pop$ -- 4
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 60
 quote$ -- 0
-skip$ -- 14
+skip$ -- 53
 stack$ -- 0
-substring$ -- 2217
-swap$ -- 6
-text.length$ -- 14
+substring$ -- 5591
+swap$ -- 24
+text.length$ -- 56
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 16
 warning$ -- 0
-while$ -- 24
+while$ -- 96
 width$ -- 0
-write$ -- 8
-(There was 1 warning)
+write$ -- 23

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  28 MAR 2021 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  28 MAR 2021 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -202,90 +202,80 @@ Underfull \hbox (badness 1436) in paragraph at lines 49--50
 \OT1/cmr/m/n/10.95 reg-u-la-tion as a mar-ket de-sign prob-
  []
 
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 61.
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 61--62
-\OT1/cmr/m/n/10.95 Dwor-czak, Komin-ers and Ak-bar-
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 61--62
-\OT1/cmr/bx/n/10.95 this im-pact with a dif-fer-ent
- []
-
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-
-Package natbib Warning: Citation `budish-2008' on page 2 undefined on input line 63.
-
-
-Underfull \hbox (badness 2582) in paragraph at lines 63--64
-\OT1/cmr/m/n/10.95 pro-hib-ited, and the mar-ket de-
+Underfull \hbox (badness 1490) in paragraph at lines 65--66
+[]\OT1/cmr/m/n/10.95 Babaioff, Nisan and Talgam-Cohen
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 63--64
-\OT1/cmr/bx/n/10.95 sign-ment prob-lems? Could
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 73.
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 73--74
+\OT1/cmr/m/n/10.95 Dwor-czak, Komin-ers and Ak-bar-
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 63--64
-\OT1/cmr/bx/n/10.95 we in-cor-po-rate the dif-fer-ing
+Underfull \hbox (badness 1226) in paragraph at lines 73--74
+\OT1/cmr/bx/n/10.95 this im-pact with a dif-fer-ent
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 63--64
-\OT1/cmr/bx/n/10.95 in Dwor-czak, Komin-ers and
+Underfull \hbox (badness 1748) in paragraph at lines 75--76
+\OT1/cmr/m/n/10.95 which agents are al-lo-cated bun-
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 63--64
-\OT1/cmr/bx/n/10.95 Ak-bar-pour (2020) or Pareto
+Underfull \hbox (badness 1137) in paragraph at lines 75--76
+\OT1/cmr/m/n/10.95 banks along the lines of Bud-ish
  []
 
-(/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+Underfull \vbox (badness 1259) has occurred while \output is active []
+
+ [2] (/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
 []\OT1/cmr/bx/n/10.95 Dworczak, Pi-otr, Scott Duke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
 \OT1/cmr/bx/n/10.95 Komin-ers, and Mo-ham-mad
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 9--11
+Underfull \hbox (badness 2951) in paragraph at lines 20--22
 \OT1/cmr/bx/n/10.95 Ak-bar-pour. \OT1/cmr/m/n/10.95 2020. ``Re-dis-tri-bu-tion
  []
 
-)
 
-Package natbib Warning: There were undefined citations.
+Underfull \hbox (badness 2626) in paragraph at lines 24--26
+[]\OT1/cmr/bx/n/10.95 Prendergast, Canice. \OT1/cmr/m/n/10.95 2017. ``How
+ []
 
-[2] (/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux)
+) [3] (/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 1437 strings out of 492616
- 18466 string characters out of 6129482
+ 1446 strings out of 492616
+ 18658 string characters out of 6129482
  88140 words of memory out of 5000000
- 5398 multiletter control sequences out of 15000+600000
+ 5407 multiletter control sequences out of 15000+600000
  9940 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,23p,1057b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,6n,23p,1147b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf (2 pages, 113455 bytes).
+Output written on /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf (3 pages, 124064 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

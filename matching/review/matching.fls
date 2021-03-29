@@ -48,10 +48,10 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
 OUTPUT /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
 INPUT /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
 INPUT /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux
