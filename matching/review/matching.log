@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  29 MAR 2021 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  29 MAR 2021 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -211,73 +211,151 @@ Underfull \hbox (badness 1490) in paragraph at lines 66--67
  []
 
 
+Underfull \hbox (badness 1168) in paragraph at lines 68--69
+\OT1/cmr/m/n/10.95 tribut-ing its goods to af-fil-i-ated food
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 72--73
+\OT1/cmr/m/n/10.95 ter-est-ing work to ex-tend mod-els of
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 72--73
+\OT1/cmr/m/n/10.95 schools within a city, re-sult-ing in a
+ []
+
+[2]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 77.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+[]\OT1/cmr/m/n/10.95 Scheuer, F. (2014): \En-
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 77--78
+\OT1/cmr/m/n/10.95 trepreneurial tax-a-tion with en-
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 77--78
+\OT1/cmr/m/n/10.95 doge-nous en-try," Amer-i-can Eco-
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 85--86
+\OT1/cmr/m/n/10.95 De-sign Re-sponses to In-equal-ity".
+ []
+
+
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 73.
+(Font)              size <10.95> substituted on input line 93.
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 73--74
+Underfull \hbox (badness 1728) in paragraph at lines 93--94
 \OT1/cmr/m/n/10.95 equal-ity, the op-ti-mal mech-a-nism
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 73--74
+Underfull \hbox (badness 1067) in paragraph at lines 93--94
 \OT1/cmr/m/n/10.95 and Ak-bar-pour (2020) is a ran-
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 73--74
+Underfull \hbox (badness 3158) in paragraph at lines 93--94
 \OT1/cmr/bx/n/10.95 model the harm to poorer
  []
 
-[2]
-Underfull \hbox (badness 1748) in paragraph at lines 75--76
+
+Underfull \hbox (badness 1226) in paragraph at lines 93--94
+\OT1/cmr/bx/n/10.95 ran-dom-iza-tion? How might
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 93--94
+\OT1/cmr/bx/n/10.95 these an-swers change if the
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 95--96
 \OT1/cmr/m/n/10.95 which agents are al-lo-cated bun-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 75--76
+Underfull \hbox (badness 1874) in paragraph at lines 95--96
 \OT1/cmr/bx/n/10.95 other ap-pli-ca-tions of com-bi-
  []
 
-(/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+Underfull \hbox (badness 2753) in paragraph at lines 97--98
+\OT1/cmr/m/n/10.95 \ends-against-the-middle" trade-off
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 97--98
+\OT1/cmr/m/n/10.95 im-ple-ment-ing school choice com-
+ []
+
+[3] (/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
+Underfull \hbox (badness 2980) in paragraph at lines 9--12
+[]\OT1/cmr/bx/n/10.95 Avery, Christo-pher, and Parag
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 9--12
+\OT1/cmr/bx/n/10.95 Pathak. \OT1/cmr/m/n/10.95 2021. ``The Dis-tri-bu-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+\OT1/cmr/m/n/10.95 Con-se-quences of Pub-lic School
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 []\OT1/cmr/bx/n/10.95 Dworczak, Pi-otr, Scott Duke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 \OT1/cmr/bx/n/10.95 Komin-ers, and Mo-ham-mad
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 20--22
+Underfull \hbox (badness 2951) in paragraph at lines 26--28
 \OT1/cmr/bx/n/10.95 Ak-bar-pour. \OT1/cmr/m/n/10.95 2020. ``Re-dis-tri-bu-tion
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 24--26
+Underfull \hbox (badness 2626) in paragraph at lines 34--36
 []\OT1/cmr/bx/n/10.95 Prendergast, Canice. \OT1/cmr/m/n/10.95 2017. ``How
  []
 
-) [3] (/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux)
+) [4] (/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 1446 strings out of 492616
- 18658 string characters out of 6129482
- 89140 words of memory out of 5000000
- 5407 multiletter control sequences out of 15000+600000
+ 1454 strings out of 492616
+ 18799 string characters out of 6129482
+ 90140 words of memory out of 5000000
+ 5415 multiletter control sequences out of 15000+600000
  9940 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,28p,1131b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf (3 pages, 125235 bytes).
+ 34i,6n,28p,1301b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf (4 pages, 138887 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

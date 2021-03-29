@@ -43,7 +43,7 @@ The work and open directions below focus on how we can harness market design to 
 
 \maketitle
 
-Reading through more of the literature on matching markets, combinatorial assignment, and market design more broadly, I've become more interested in the potential to design markets with equity as a primary objective. These works below all link to that goal, despite being applied in somewhat different settings. This appears to be a growing field of work, with a pending in anthology in Kominers and Teytelboym's forthcoming ``More Equal by Design: Economic Design Responses to Inequality".
+Reading through more of the literature on matching markets, combinatorial assignment, and market design more broadly, I've become more interested in the potential to design markets with equity as a primary objective. These works below all link to that goal, despite being applied in very different settings.
 
 \section{Redistribution through Markets}
 
@@ -65,14 +65,37 @@ The two fairness conditions, ``maximin share guarantee" and ``envy bounded by a 
 
 \cite{babaioff-2019} generalize the results of \cite{budish-2011} to agents with budgets that can be far from equal. Here, the intuition is that in some cases, the designer may wish to favor some agents' preferences over others. For example, in \cite{budish-2011}, all students have the same priority to the market designer. In \cite{babaioff-2019}, the authors suggest the motivating example of a charity allocating food to food banks of different sizes, which should likely have different budgets.
 
-\cite{prendergast-2017} describes the implementation of a similar combinatorial assignment mechanism for Second Harvest, a charity which distributes food to markets. The charity faced a combinatorial assignment problem in distributing its goods to affiliated food banks, and implemented a system similar to \cite{budish-2011}, by using artificial currency and having food banks bid on items.
+\cite{prendergast-2017} describes the implementation of a similar combinatorial assignment mechanism for Second Harvest, a charity which distributes food to food banks. The charity faced a combinatorial assignment problem in distributing its goods to affiliated food banks, and implemented a system similar to \cite{budish-2011}, by using artificial currency and having food banks bid on items.
+
+\section{Miscellaneous}
+
+Perhaps the application of market design most directly motivated by alleviating inequality has been school choice. \cite{avery-2020} do very interesting work to extend models of school choice, motivated by the idea that un-tethering schools from their neighborhoods changes neighborhood housing prices. Intuitively, school choice tends to equalize the performance of schools within a city, resulting in a compressed spectrum of housing prices. They then uncover an ``ends-against-the-middle'' tradeoff, wherein families at the high and low ends of the socioeconomic spectrum have an incentive to leave the town. In particular, even when the lowest-performing schools improve, low-income individuals may not benefit. For an early overview of school choice mechanisms, \cite{pathak-2011} was helpful.
+
+\section{Other Papers to Read}
+
+\begin{itemize}
+    \item Scheuer, F. (2014): “Entrepreneurial taxation with endogenous entry,” American Economic Journal: Economic Policy, 6, 126–63.
+    
+    \item Weitzman, M. L. (1977): “Is the price system or rationing more effective in getting a commodity to those who need it most?” Bell Journal of Economics, 8, 517–524.
+    
+    \item Akbarpour, M., P. Dworczak, and S. D. Kominers (2020): “Redistributive Allocation Mechanisms,” Working Paper.
+    
+    \item Maybe: Saez, E., and Stantcheva, S. (2016). Generalized social marginal welfare weights for optimal tax theory. American Economic Review, 106(1), 24-45.
+    
+    \item Kominers, S. and Teytelboym, A.: ``More Equal by Design: Economic Design Responses to Inequality". (Forthcoming book).
+\end{itemize}
 
 \section{Open Questions}
 
+I still need to deepen the \emph{specificity} of these questions, I think, and a better sense of how to sharpen good theory questions. I still need to develop a more crisp understanding of how \cite{dworczak-2020} differs from the prior literature on optimal taxation and rationing.
+
 \begin{enumerate}
-    \item In cases of significant same-side inequality, the optimal mechanism proposed by \cite{dworczak-2020} is a randomized mechanism, in which some agents can only trade with a given probability. As the authors point out, randomized rationing in practice can be particularly harmful to poorer individuals, who may have less tolerance for uncertainty. There is also a long tradition in computer science of trying to "de-randomize" randomized algorithms. \textbf{Can we model the harm to poorer agents in this model that results from randomization? Can we lessen this impact with a different randomized mechanism, or derandomize the mechanism entirely? How might these answers change if the good is divisible?}
+    \item In cases of significant same-side inequality, the optimal mechanism proposed by \cite{dworczak-2020} is a randomized mechanism, in which some agents can only trade with a given probability. As the authors point out, randomized rationing in practice can be particularly harmful to poorer individuals, who may have less tolerance for uncertainty. There is also a long tradition in computer science of trying to "de-randomize" randomized algorithms. \textbf{Can we model the harm to poorer agents in this model that results from randomization? Can we develop a mechanism that ``trades off'' efficiency for less randomization? How might these answers change if the good is divisible?}
     
     \item \cite{budish-2011} addresses the combinatorial assignment problem, in which agents are allocated bundles of indivisible objects, monetary transfers are prohibited, and the market designer cares about efficiency and equity. Budish proposes the Approximate CEEI algorithm to resolve the problem, and empirically tests its results on student course assignments. Yet the only applications of this mechanism, to my knowledge, have been in Budish's course allocation and \cite{prendergast-2017} applying the mechanism to food distribution for food banks. Budish only alludes to one other applications, that of shift scheduling for workers in a firm. Yet it still feels that there are other killer applications of fairness in combinatorial assignment to be tapped. \textbf{What other applications of combinatorial assignment problems might be out there?}
+    
+    \item Avery and Prathak (2020) model a city using school choice assignment of students, and complicate previous models by modeling (a) the effect of school quality on neighborhood housing prices and (b) an outside option where residents can move to a different city with neighborhood-based assignment. They find an “ends-against-the-middle” tradeoff in which both low-income and high-income types leave the city after it adopts school choice. Intuitively, implementing school choice compresses the range of school qualities, thus compressing the range of housing prices as well, and inducing those at the high and low ends of the spectrum to leave. \textbf{Do we actually observe high and low income types leaving cities after the adoption of school choice? To what extent?} This is motivated by some studies (one from the NBER labor conference which I need to find), showing that workers don’t follow idealized perfect geographic mobility models (e.g. residents in manufacturing towns hit by NAFTA tended to stay there, despite economic pressures). On the other hand, authors like Baum-Snow and Luntz (2010) find many wealthy families leaving Boston in response to desegregation there.
+
     
     % \item (Still a little half-baked). \cite{babaioff-2019} explores an example in which agents have different budgets, motivated by food banks of different sizes. This is somewhat motivated by the market designer's preferences, in which each food bank should have different demand based on its size. One could also set these budets based on the market designer's own interests: for example, a distant food bank may have a lower budget due to the higher costs of transporting supplies to it. Motivated by this (admittedly somehwat contrived) example, suppose that the market designer has differential transport costs by the type of good in a bundle. I believe (could be wrong) this is akin to the market designer setting different prices for different agents, effectively price discriminating with respect to the vitual currency. \textbf{If the market designer may set different prices for different agents, in addition to allocating agents' different budgets, can we obtain novel outcomes? What applications might this have in real markets?}
 \end{enumerate}
