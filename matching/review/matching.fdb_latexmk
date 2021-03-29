@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex matching"] 1616986554 "matching.aux" "matching.bbl" "matching" 1616986560
+["bibtex matching"] 1617047494 "matching.aux" "matching.bbl" "matching" 1617047499
   "./aea.bst" 1242827686 23105 ced7c75addb710fdb85503a64b9bafa7 ""
-  "matching.aux" 1616986554 1076 352bddf270179e53077987531cc71c54 "pdflatex"
+  "matching.aux" 1617047498 1132 3dede9b25d9e308b4b140bca00c24be6 "pdflatex"
   "matching.bib" 1616986552 1213 cecb06df1c7ac23570c561e0a77998dc ""
   (generated)
   "matching.bbl"
   "matching.blg"
-["pdflatex"] 1616986554 "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.tex" "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf" "matching" 1616986560
-  "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux" 1616986554 1076 352bddf270179e53077987531cc71c54 ""
-  "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.tex" 1616986559 9040 694eded799cf922d7cb39e711b2b20c9 ""
+["pdflatex"] 1617047498 "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.tex" "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf" "matching" 1617047499
+  "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux" 1617047498 1132 3dede9b25d9e308b4b140bca00c24be6 ""
+  "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.tex" 1617047498 10133 5c0fae6dc5305d04f3d85f76e0d8da39 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -50,14 +50,14 @@
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "AEA.cls" 1311563856 44747 4d201f2a1df32318add00ffd1b03f030 ""
-  "matching.aux" 1616986554 1076 352bddf270179e53077987531cc71c54 "pdflatex"
-  "matching.bbl" 1616986554 1156 c0168af1a1dcf27c40efb0b40a19e0ad "bibtex matching"
-  "matching.tex" 1616986559 9040 694eded799cf922d7cb39e711b2b20c9 ""
+  "matching.aux" 1617047498 1132 3dede9b25d9e308b4b140bca00c24be6 "pdflatex"
+  "matching.bbl" 1617047494 1156 c0168af1a1dcf27c40efb0b40a19e0ad "bibtex matching"
+  "matching.tex" 1617047498 10133 5c0fae6dc5305d04f3d85f76e0d8da39 ""
   "multicol.sty" 1084240224 25928 526edd03c609ff2cdc4805a41441008e ""
   "setspace.sty" 1130857036 22518 969fcbccb9feb6c080f52825bb5fe1e1 ""
   (generated)
-  "matching.pdf"
   "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.log"
+  "matching.aux"
   "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf"
   "matching.log"
-  "matching.aux"
+  "matching.pdf"

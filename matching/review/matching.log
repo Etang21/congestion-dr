@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  28 MAR 2021 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  29 MAR 2021 12:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -156,49 +156,49 @@ LaTeX Font Info:    ... okay on input line 26.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 45.
+(Font)              size <24.88> substituted on input line 44.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 45.
+(Font)              size <24.88> substituted on input line 44.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 45.
+(Font)              size <24.88> substituted on input line 44.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 45.
+(Font)              size <10.95> substituted on input line 44.
 
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 45.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 44.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 45.
+(Font)              size <10.95> substituted on input line 44.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 45.
+(Font)              size <10.95> substituted on input line 44.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 45.
+(Font)              size <10.95> substituted on input line 44.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
 
-Underfull \hbox (badness 1783) in paragraph at lines 49--50
+Underfull \hbox (badness 1783) in paragraph at lines 50--51
 \OT1/cmr/m/n/10.95 trol and min-i-mum wage laws, typ-i-
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 49--50
+Underfull \hbox (badness 1436) in paragraph at lines 50--51
 \OT1/cmr/m/n/10.95 reg-u-la-tion as a mar-ket de-sign prob-
  []
 
@@ -206,7 +206,7 @@ Underfull \hbox (badness 1436) in paragraph at lines 49--50
 
 
 ]
-Underfull \hbox (badness 1490) in paragraph at lines 65--66
+Underfull \hbox (badness 1490) in paragraph at lines 66--67
 []\OT1/cmr/m/n/10.95 Babaioff, Nisan and Talgam-Cohen
  []
 
@@ -215,29 +215,31 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
 (Font)              size <10.95> substituted on input line 73.
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 73--74
-\OT1/cmr/m/n/10.95 Dwor-czak, Komin-ers and Ak-bar-
+Underfull \hbox (badness 1728) in paragraph at lines 73--74
+\OT1/cmr/m/n/10.95 equal-ity, the op-ti-mal mech-a-nism
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 73--74
-\OT1/cmr/bx/n/10.95 this im-pact with a dif-fer-ent
+Underfull \hbox (badness 1067) in paragraph at lines 73--74
+\OT1/cmr/m/n/10.95 and Ak-bar-pour (2020) is a ran-
  []
 
 
+Underfull \hbox (badness 3158) in paragraph at lines 73--74
+\OT1/cmr/bx/n/10.95 model the harm to poorer
+ []
+
+[2]
 Underfull \hbox (badness 1748) in paragraph at lines 75--76
 \OT1/cmr/m/n/10.95 which agents are al-lo-cated bun-
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 75--76
-\OT1/cmr/m/n/10.95 banks along the lines of Bud-ish
+Underfull \hbox (badness 1874) in paragraph at lines 75--76
+\OT1/cmr/bx/n/10.95 other ap-pli-ca-tions of com-bi-
  []
 
-
-Underfull \vbox (badness 1259) has occurred while \output is active []
-
- [2] (/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
+(/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 20--22
 []\OT1/cmr/bx/n/10.95 Dworczak, Pi-otr, Scott Duke
  []
@@ -266,13 +268,13 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  1446 strings out of 492616
  18658 string characters out of 6129482
- 88140 words of memory out of 5000000
+ 89140 words of memory out of 5000000
  5407 multiletter control sequences out of 15000+600000
  9940 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,23p,1147b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,6n,28p,1131b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf (3 pages, 124064 bytes).
+Output written on /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf (3 pages, 125235 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
