@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex matching"] 1617057230 "matching.aux" "matching.bbl" "matching" 1617057912
+["bibtex matching"] 1617740151 "matching.aux" "matching.bbl" "matching" 1617743571
   "./aea.bst" 1242827686 23105 ced7c75addb710fdb85503a64b9bafa7 ""
-  "matching.aux" 1617057911 1558 c082db33bdf677fb9998e671cb96fa92 "pdflatex"
-  "matching.bib" 1617056340 1765 1a74fa92b2df2dc223197df6689f0383 ""
+  "matching.aux" 1617743570 1727 b1c71e71c666d796fb321d6bc885be9b "pdflatex"
+  "matching.bib" 1617740060 2084 bb0ad53a284ea29643bfdee4365f84fa ""
   (generated)
-  "matching.bbl"
   "matching.blg"
-["pdflatex"] 1617057911 "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.tex" "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf" "matching" 1617057912
-  "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux" 1617057911 1558 c082db33bdf677fb9998e671cb96fa92 ""
-  "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.tex" 1617057910 13085 9d323000422759b2bf33480488a675c4 ""
+  "matching.bbl"
+["pdflatex"] 1617743570 "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.tex" "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf" "matching" 1617743571
+  "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux" 1617743570 1727 b1c71e71c666d796fb321d6bc885be9b ""
+  "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.tex" 1617743569 15661 2069824176e4bf27150ef1cc6928e122 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -31,6 +31,7 @@
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti8.tfm" 1136768653 1504 1747189e0441d1c18f3ea56fafc1c480 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb" 1248133631 28902 2f5c04fd2884d1878057baa5aad22765 ""
@@ -51,14 +52,14 @@
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "AEA.cls" 1311563856 44747 4d201f2a1df32318add00ffd1b03f030 ""
-  "matching.aux" 1617057911 1558 c082db33bdf677fb9998e671cb96fa92 "pdflatex"
-  "matching.bbl" 1617057231 1595 1eeac2f9a6ca016bc23e503d2b168638 "bibtex matching"
-  "matching.tex" 1617057910 13085 9d323000422759b2bf33480488a675c4 ""
+  "matching.aux" 1617743570 1727 b1c71e71c666d796fb321d6bc885be9b "pdflatex"
+  "matching.bbl" 1617740152 1841 558a23a5cf1483d046698056f2abdf38 "bibtex matching"
+  "matching.tex" 1617743569 15661 2069824176e4bf27150ef1cc6928e122 ""
   "multicol.sty" 1084240224 25928 526edd03c609ff2cdc4805a41441008e ""
   "setspace.sty" 1130857036 22518 969fcbccb9feb6c080f52825bb5fe1e1 ""
   (generated)
+  "matching.pdf"
   "matching.aux"
   "matching.log"
   "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf"
-  "matching.pdf"
   "/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.log"

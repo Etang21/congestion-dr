@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: matching.aux
 The style file: aea.bst
 Database file #1: matching.bib
-You've used 6 entries,
+You've used 7 entries,
             2695 wiz_defined-function locations,
-            615 strings with 4591 characters,
-and the built_in function-call counts, 31642 in all, are:
-= -- 5256
-> -- 354
+            621 strings with 4753 characters,
+and the built_in function-call counts, 35104 in all, are:
+= -- 5818
+> -- 388
 < -- 0
-+ -- 2561
-- -- 110
-* -- 2805
-:= -- 6272
-add.period$ -- 42
-call.type$ -- 6
-change.case$ -- 78
-chr.to.int$ -- 6
-cite$ -- 6
-duplicate$ -- 84
-empty$ -- 205
-format.name$ -- 110
-if$ -- 5645
++ -- 2825
+- -- 120
+* -- 3105
+:= -- 6984
+add.period$ -- 49
+call.type$ -- 7
+change.case$ -- 91
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 98
+empty$ -- 239
+format.name$ -- 120
+if$ -- 6255
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 25
-num.names$ -- 66
-pop$ -- 6
+newline$ -- 28
+num.names$ -- 77
+pop$ -- 7
 preamble$ -- 1
-purify$ -- 90
+purify$ -- 105
 quote$ -- 0
-skip$ -- 79
+skip$ -- 92
 stack$ -- 0
-substring$ -- 7509
-swap$ -- 36
-text.length$ -- 84
+substring$ -- 8302
+swap$ -- 42
+text.length$ -- 98
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 28
 warning$ -- 0
-while$ -- 144
+while$ -- 168
 width$ -- 0
-write$ -- 33
+write$ -- 38

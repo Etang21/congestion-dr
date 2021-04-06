@@ -47,7 +47,17 @@ Reading through more of the literature on matching markets, combinatorial assign
 
 \section{Redistribution through Markets}
 
-Price regulations, such as rent control and minimum wage laws, typically face tradeoffs between reducing inequality and maintaining efficient outcomes. \cite{dworczak-2020} characterize the Pareto frontier of this tradeoff by framing price regulation as a market design problem, with buyers and sellers seeking to buy an indivisible good. They frame the Pareto frontier as determining the welfare-maximizing solution when agents have different valuations for money and for the good. (Roughly speaking, the valuation for money falls with an agent's wealth). They find that when there is significant inequality between buyers and sellers, optimal price controls take the form of a ``tax" which charges buyers a lower price than that of sellers, then transfers the surplus to the poorer side of the market. When there is significant inequality between agents on one side of the market, price controls take a more complex form but may still be optimal.
+Price regulations, such as rent control and minimum wage laws, typically face tradeoffs between reducing inequality and maintaining efficient outcomes. In an age of dramatic inequality (see: anyone, perhaps Piketty most specifically), it is critical to design markets with equity in mind.
+
+Early work exploring this balance includes \cite{weitzman-1977}, who asks whether competitive prices or rationing in a one-commodity market is more effective at ensuring agents with the highest need receive the good. Weitzman focuses primarily on goods which are deemed a societal need, potentially including housing, food, or medical care. As in actual marketplaces, agents have both differing incomes and differing needs for the good. Intuitively, if income distribution is relatively egalitarian and agents' needs vary widely, then competitive prices better identifies those agents with greater need. On the other hand, if income inequality is high compared to the dispersion in need for the good, rationing is more effective.
+
+Formally, \cite{weitzman-1977} reach these results by parametrizing agents' demand functions according to $\lambda$ and $\epsilon$, where $\lambda$ represents the agent's marginal value for money (falls as income rises) and $\epsilon$ represents the agent's need for the good. Critically, these types are unobservable by the market designer, a problem which will arise again in later work as well.
+
+Weitzman now considers two possible rules for allocating a fixed quantity of the good to each agent. Under competitive prices, the market designer sets a price to ensure market clearing. Under pure rationing, the market designer equally divides the good between all agents. Note that \cite{dworczak-2020} build on this model by, among other improvements, considering more nuanced rationing schemes that allocate to a subset of agents or impose multiple price levels. Weitzman then may compute a loss for each method in meeting actual need, and compare the two schemes' outcomes based on the prior distributions of $\lambda$ and $\epsilon$ in the populace. This formalizes the intuition of when rationing or competitive prices better meet needs in the market.
+
+\cite{dworczak-2020} characterize the Pareto frontier of this tradeoff by framing price regulation as a market design problem, with buyers and sellers seeking to buy an indivisible good. They frame the Pareto frontier as determining the welfare-maximizing solution when agents have different valuations for money and for the good. (Roughly speaking, the valuation for money falls with an agent's wealth). They find that when there is significant inequality between buyers and sellers, optimal price controls take the form of a ``tax" which charges buyers a lower price than that of sellers, then transfers the surplus to the poorer side of the market. When there is significant inequality between agents on one side of the market, price controls take a more complex form but may still be optimal.
+
+The key obstacle which \cite{dworczak-2020} overcomes, as was faced by earlier models such as Weitzman (1977), is that the market designer does not perfectly identify agents' needs, and hence setting a price at which the commodity is rationed helps to identify these needs.
 
 One interesting novelty of the \cite{dworczak-2020} model is their use of agents' differing marginal values for money, instead of the more standard approach of giving agents different Pareto weights to construct the Pareto frontier. The authors show that these two formulations are actually equivalent. Intuitively, an agent having a higher marginal utility for money is akin to a market designer placing greater weight on the money they are given in the final allocation. They show that agents' actions are fully characterized by their rate of substitution between the good and money.
 
@@ -78,11 +88,16 @@ Perhaps the application of market design most directly motivated by alleviating 
     
     \item Weitzman, M. L. (1977): “Is the price system or rationing more effective in getting a commodity to those who need it most?” Bell Journal of Economics, 8, 517–524.
     
-    \item Akbarpour, M., P. Dworczak, and S. D. Kominers (2020): “Redistributive Allocation Mechanisms,” Working Paper.
+    \item Akbarpour, M., P. Dworczak, and S. D. Kominers (2020): “Redistributive Allocation Mechanisms,” Working Paper. %Talk: https://www.youtube.com/watch?v=06-wBTY4wkU
     
     \item Maybe: Saez, E., and Stantcheva, S. (2016). Generalized social marginal welfare weights for optimal tax theory. American Economic Review, 106(1), 24-45.
     
     \item Kominers, S. and Teytelboym, A.: ``More Equal by Design: Economic Design Responses to Inequality". (Forthcoming book).
+    
+    \item https://news.mit.edu/2021/building-equity-vaccine-distribution-0204
+    \item 
+    \item Sönmez on Vaccines %\href{}(https://www.youtube.com/watch?v=kvJ4w0P8kAY&ab_channel=VirtualMDSeminar)
+
 \end{itemize}
 
 \section{Open Questions}
