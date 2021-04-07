@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  7 APR 2021 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  7 APR 2021 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -332,7 +332,10 @@ Underfull \hbox (badness 1331) in paragraph at lines 61--62
 []\OT1/cmr/m/n/10.95 The key ob-sta-cle which []Dwor-czak,
  []
 
-[2]
+
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+ [2]
 Underfull \hbox (badness 1490) in paragraph at lines 83--84
 [][]\OT1/cmr/m/n/10.95 Babaioff, Nisan and Talgam-Cohen[]
  []
@@ -376,98 +379,111 @@ Underfull \hbox (badness 2512) in paragraph at lines 106--107
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1253) in paragraph at lines 110--111
 \OT1/cmr/m/n/10.95 De-sign Re-sponses to In-equal-ity".
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 123--124
+Underfull \hbox (badness 2334) in paragraph at lines 121--122
 \OT1/cmr/m/n/10.95 ers and Ak-bar-pour[] ([]2020[]), say,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 1460) in paragraph at lines 123--124
+\OT1/cmr/m/n/10.95 much of the lit-er-a-ture on tax-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 []\OT1/cmr/m/n/10.95 Other com-bi-na-to-rial as-sign-ment
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 127--128
+Underfull \hbox (badness 1092) in paragraph at lines 125--126
 \OT1/cmr/m/n/10.95 flights, re-serv-ing seats on pub-lic
  []
 
-
-Underfull \hbox (badness 1210) in paragraph at lines 129--130
+[4]
+Underfull \hbox (badness 1210) in paragraph at lines 127--128
 \OT1/cmr/m/n/10.95 ers[] ([]2020[]) value rev-enue gen-er-a-
  []
 
-[4]
-Underfull \hbox (badness 2591) in paragraph at lines 131--132
+
+Underfull \hbox (badness 1902) in paragraph at lines 127--128
+\OT1/cmr/m/n/10.95 rev-enue to the mar-ket de-signer.
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 129--130
 \OT1/cmr/m/n/10.95 flects the sim-i-lar im-por-tance of
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 131--132
+Underfull \hbox (badness 1286) in paragraph at lines 129--130
 \OT1/cmr/m/n/10.95 com-pletely de-ter-mines whether a
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 139.
+(Font)              size <10.95> substituted on input line 138.
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 139--140
+Underfull \hbox (badness 1748) in paragraph at lines 138--139
 \OT1/cmr/m/n/10.95 which agents are al-lo-cated bun-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 139--140
+Underfull \hbox (badness 1874) in paragraph at lines 138--139
 \OT1/cmr/bx/n/10.95 other ap-pli-ca-tions of com-bi-
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 141--142
+Underfull \hbox (badness 2753) in paragraph at lines 140--141
 \OT1/cmr/m/n/10.95 \ends-against-the-middle" trade-off
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 141--142
+Underfull \hbox (badness 1603) in paragraph at lines 140--141
 \OT1/cmr/m/n/10.95 im-ple-ment-ing school choice com-
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 143--144
-\OT1/cmr/m/n/10.95 equal-ity, the op-ti-mal mech-a-nism
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 143--144
-\OT1/cmr/m/n/10.95 and Ak-bar-pour[] ([]2020[]) is a ran-
- []
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 143--144
-\OT1/cmr/bx/n/10.95 model the harm to poorer
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 143--144
-\OT1/cmr/bx/n/10.95 ran-dom-iza-tion? How might
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 143--144
-\OT1/cmr/bx/n/10.95 these an-swers change if the
- []
-
-[5]
-Underfull \hbox (badness 1454) in paragraph at lines 145--146
-\OT1/cmr/m/n/10.95 to the treat-ment of []Pren-der-gast[]
  []
 
 
 Underfull \vbox (badness 1259) has occurred while \output is active []
 
- (/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
+ [5]
+Underfull \hbox (badness 1728) in paragraph at lines 142--143
+\OT1/cmr/m/n/10.95 equal-ity, the op-ti-mal mech-a-nism
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 142--143
+\OT1/cmr/m/n/10.95 and Ak-bar-pour[] ([]2020[]) is a ran-
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 142--143
+\OT1/cmr/bx/n/10.95 model the harm to poorer
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 142--143
+\OT1/cmr/bx/n/10.95 ran-dom-iza-tion? How might
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 142--143
+\OT1/cmr/bx/n/10.95 these an-swers change if the
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 144--145
+\OT1/cmr/m/n/10.95 to the treat-ment of []Pren-der-gast[]
+ []
+
+(/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 []\OT1/cmr/bx/n/10.95 Akbarpour, Mo-ham-mad, Pi-otr
  []
@@ -487,7 +503,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 \OT1/cmr/m/n/10.95 Al-lo-ca-tion Mech-a-nisms.'' \OT1/cmr/m/it/10.95 Work-ing
  []
 
-
+[6]
 Underfull \hbox (badness 2980) in paragraph at lines 14--17
 []\OT1/cmr/bx/n/10.95 Avery, Christo-pher, and Parag
  []
@@ -502,7 +518,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 \OT1/cmr/m/n/10.95 Con-se-quences of Pub-lic School
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 31--33
 []\OT1/cmr/bx/n/10.95 Dworczak, Pi-otr, Scott Duke
  []
@@ -533,14 +549,12 @@ Underfull \hbox (badness 2626) in paragraph at lines 54--56
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
- [7
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
  (/Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
 Package rerunfilecheck Info: File `matching.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -548,21 +562,21 @@ Package rerunfilecheck Info: File `matching.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  ) 
 Here is how much of TeX's memory you used:
  5442 strings out of 492616
  80207 string characters out of 6129482
- 180516 words of memory out of 5000000
+ 178516 words of memory out of 5000000
  9320 multiletter control sequences out of 15000+600000
  9940 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,28p,1356b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf (7 pages, 162765 bytes).
+ 34i,6n,28p,1356b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on /Users/etang/stanford-classes/honors-thesis/lit-reviews/matching/review/matching.pdf (7 pages, 170429 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
+ 216 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
