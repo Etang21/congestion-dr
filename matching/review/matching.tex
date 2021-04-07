@@ -15,6 +15,7 @@
 
 % Uncomment the next line to use the natbib package with bibtex 
 \usepackage{natbib}
+\usepackage{hyperref} 
 
 % Uncomment the next line to use the harvard package with bibtex
 %\usepackage[abbr]{harvard}
@@ -67,6 +68,12 @@ The bulk of the paper describes the optimal mechanisms to address cross-side ine
 
 The paper raises several interesting extensions. Most immediately, the model only studies an indivisible good without wealth effects. Both of these modeling assumptions could be extended. The model also neglects possible aftermarkets of trade between agents, which could be explicitly modeled. Finally, the rationing mechanism used to address same-side inequality is randomized; work on designing non-random mechanisms could be fruitful. It would also be interesting to find real-world examples where this randomization impacts participant behavior in measurable ways.
 
+
+% Interesting! In the Redistributive Allocation paper, the authors mention that they are planning on applying the work to vaccines in an upcoming paper.
+
+\cite{akbarpour-2020} approach the problem slightly differently, as one in which a market designer is alllocating a public good of heterogeneous quality to buyers, and additionally deciding on the price. Also notable about the \cite{akbarpour-2020} model is that it weights the valuation of generating revenue with its own Pareto weight, reflecting the potential uses of that generated revenue. Finally, the work also introduces observable types (think of observable demographic characteristics) which the market designer can condition on.
+
+
 \section{Fair Equilibrium in Combinatorial Assignments}
 
 \cite{budish-2011} opened exploration of the combinatorial assignment problem, in which a market designer must allocate indivisible bundles to agents, and in which monetary transfers are prohibited. Critically, the market designer cares about both the efficiency and fairness of the allocation. This problem becomes interesting to study because the only efficient and strategyproof mechanism is a serial dictatorship which is (no surprise) not at all fair. Budish first defines two fairness criteria for the problem, then proposes a mechanism which achieves fairness with relaxations of the efficiency and fairness requirements.
@@ -97,25 +104,47 @@ Most interesting in the paper is the consequences of their work for underprivile
 
 \begin{itemize}
     \item Scheuer, F. (2014): “Entrepreneurial taxation with endogenous entry,” American Economic Journal: Economic Policy, 6, 126–63.
-        
-    \item Akbarpour, M., P. Dworczak, and S. D. Kominers (2020): “Redistributive Allocation Mechanisms,” Working Paper. %Talk: https://www.youtube.com/watch?v=06-wBTY4wkU
-    
+            
     \item Maybe: Saez, E., and Stantcheva, S. (2016). Generalized social marginal welfare weights for optimal tax theory. American Economic Review, 106(1), 24-45.
     
     \item Kominers, S. and Teytelboym, A.: ``More Equal by Design: Economic Design Responses to Inequality". (Forthcoming book).
+    
+    \item Condorelli 2013.
+    
+    \item Work by Nathan Hendron on public finance.
 
+\end{itemize}
+
+\section{Miscellaneous Ideas to Follow}
+
+(Some scattered ideas that I'm still working through).
+
+\begin{itemize}
+    \item Alternative rationing devices: how can we ration in \cite{dworczak-2020}, say, to ensure better ex-post fairness? What if this allocation is repeated several times?
+    
+    \item How does redistribution in a market in the sense of \cite{dworczak-2020} interact with other redistributive mechanisms like taxation? What if this market also had a progressive income tax imposed, in which the tax agent knew agents' incomes but the market designer did not?
+    
+    \item Other combinatorial assignment ideas: allocating vaccines or ventilators, allocating a set of seats on flights, reserving seats on public transit. Could you imagine allocating PPE to various hospitals as a combinatorial assignment problem?
+    
+    \item \cite{akbarpour-2020} value revenue generation by attaching it its own Pareto-weight, representing how the market designer can use that revenue. Can we model revenue redistribution more explicitly? Does that buy us anything?
+    
+    \item The importance of revenue generation in \cite{akbarpour-2020} (optimal mechanisms differ based on the Pareto weight of revenue generation) reflects the similar importance of that revenue generation witnessed in most congestion pricing models. Often, how the revenue is spent almost completely determines whether a congestion toll is progressive or regressive. Can we apply frameworks like that of \cite{akbarpour-2020} to congestion pricing? Unlike the intended use, though, this isn't quite distributing an "essential" good, as many of these motivating examples do.
 \end{itemize}
 
 \section{Open Questions}
 
 I still need to deepen the \emph{specificity} of these questions, I think, and a better sense of how to sharpen good theory questions. I still need to develop a more crisp understanding of how \cite{dworczak-2020} differs from the prior literature on optimal taxation and rationing.
 
-\begin{enumerate}
-    \item In cases of significant same-side inequality, the optimal mechanism proposed by \cite{dworczak-2020} is a randomized mechanism, in which some agents can only trade with a given probability. As the authors point out, randomized rationing in practice can be particularly harmful to poorer individuals, who may have less tolerance for uncertainty. There is also a long tradition in computer science of trying to "de-randomize" randomized algorithms. \textbf{Can we model the harm to poorer agents in this model that results from randomization? Can we develop a mechanism that ``trades off'' efficiency for less randomization? How might these answers change if the good is divisible?}
-    
+\begin{enumerate}    
     \item \cite{budish-2011} addresses the combinatorial assignment problem, in which agents are allocated bundles of indivisible objects, monetary transfers are prohibited, and the market designer cares about efficiency and equity. Budish proposes the Approximate CEEI algorithm to resolve the problem, and empirically tests its results on student course assignments. Yet the only applications of this mechanism, to my knowledge, have been in Budish's course allocation and \cite{prendergast-2017} applying the mechanism to food distribution for food banks. Budish only alludes to one other applications, that of shift scheduling for workers in a firm. Yet it still feels that there are other killer applications of fairness in combinatorial assignment to be tapped. \textbf{What other applications of combinatorial assignment problems might be out there?}
     
     \item Avery and Prathak (2020) model a city using school choice assignment of students, and complicate previous models by modeling (a) the effect of school quality on neighborhood housing prices and (b) an outside option where residents can move to a different city with neighborhood-based assignment. They find an “ends-against-the-middle” tradeoff in which both low-income and high-income types leave the city after it adopts school choice. Intuitively, implementing school choice compresses the range of school qualities, thus compressing the range of housing prices as well, and inducing those at the high and low ends of the spectrum to leave. \textbf{Do we actually observe high and low income types leaving cities after the adoption of school choice? To what extent?} This is motivated by some studies (one from the NBER labor conference which I need to find), showing that workers don’t follow idealized perfect geographic mobility models (e.g. residents in manufacturing towns hit by NAFTA tended to stay there, despite economic pressures). On the other hand, authors like Baum-Snow and Luntz (2010) find many wealthy families leaving Boston in response to desegregation there.
+    
+    \item In cases of significant same-side inequality, the optimal mechanism proposed by \cite{dworczak-2020} is a randomized mechanism, in which some agents can only trade with a given probability. As the authors point out, randomized rationing in practice can be particularly harmful to poorer individuals, who may have less tolerance for uncertainty. There is also a long tradition in computer science of trying to "de-randomize" randomized algorithms. \textbf{Can we model the harm to poorer agents in this model that results from randomization? Can we develop a mechanism that ``trades off'' efficiency for less randomization? How might these answers change if the good is divisible?} April 5: to put this in more formal terms, perhaps the question is that of ex-post versus ex-ante fairness. If this game is repeated, can we explicitly choose which agents are rationed to reduce ex-post unfairness? If agents are risk-averse, how do their preferences change?
+    
+    \item One timely, fairly direct analogy to the treatment of \cite{prendergast-2017} of food banks is the question that arose in 2020 of how to distribute Personal Protective Equipment (PPE) from the Strategic National Stockpile to hospitals which needed it. Here, as in the case of Feeding America, the equipment to be distributed were bundles of items (not funds), and equity concerns were a high priority. As in the prior arrangement for Feeding America, the distribution of the Strategic National Stockpile resulted in some inconsistent allocations (one example being Washington State \href{governor.wa.gov/news-media/we’re-together-–-washington-state-send-ventilators}{returning several hundred ventilators to other states}). On the other hand, the goods in the Stockpile are perhaps less heterogeneous than shipments of differing foods in \cite{prendergast-2017}. It's also not clear to me whether states were granted PPE shipments or had to purchase them at some minimal cost (merits investigation). The last concern is that I'm not sure how much novelty this would add to the similar implementations of \cite{prendergast-2017} and \cite{budish-2011}. Feasibility: decent, novelty: possibly low?, bearing on real world: reasonably high.
+    
+    \item For a fairly technical extension, in the accompanying seminar talk for \cite{akbarpour-2020}, Piotr Dworczak notes that their work only considers the case when there are a finite number of different Pareto weights, but their work could likely be extended to the continuous case (when Pareto weights are continuous). This could be an interesting technical extension, but I'm not sure what the real-world analogue of interest would be here.
 
     
     % \item (Still a little half-baked). \cite{babaioff-2019} explores an example in which agents have different budgets, motivated by food banks of different sizes. This is somewhat motivated by the market designer's preferences, in which each food bank should have different demand based on its size. One could also set these budets based on the market designer's own interests: for example, a distant food bank may have a lower budget due to the higher costs of transporting supplies to it. Motivated by this (admittedly somehwat contrived) example, suppose that the market designer has differential transport costs by the type of good in a bundle. I believe (could be wrong) this is akin to the market designer setting different prices for different agents, effectively price discriminating with respect to the vitual currency. \textbf{If the market designer may set different prices for different agents, in addition to allocating agents' different budgets, can we obtain novel outcomes? What applications might this have in real markets?}
